@@ -1,3 +1,22 @@
+SOPHIA GENETICS TASK ATTEMPT #1
+================================
+Task 1: Please write a C/C++ program to split a SFF file into adaptor specific SFF files.    
+Input: a single SFF file + adaptor list(a tab delimited table) 
+Output: several SFF files depend on how many adaptors contained in the input SFF file + one SFF file containing the remaining reads that do not match to any adaptors. 
+Notes:  
+1. the SFF file format is described at http://en.wikipedia.org/wiki/
+Standard_Flowgram_Format 
+2. You could refer to the program https://github.com/indraniel/sff2fastq as an example of
+how to read SFF file in C. You are also encouraged to borrow the code directly  
+3. Please make clear documentation to your code.  
+4. Please download the input SFF file at http://dl.dropbox.com/u/68829208/test.sff.zip 
+5. Please download the input adaptor list at http://dl.dropbox.com/u/68829208/
+ionXpress_barcode.txt 
+6. Your program should be executable in a standard Linux machine(Cent OS with 8Gb
+memory, for example). 
+7. We encourage you to write the highlights of your program. (extremely fast, multi- threaded, good fault tolerance, for example) 
+
+
 SYNOPSIS
 ========
 
